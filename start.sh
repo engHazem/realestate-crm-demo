@@ -52,4 +52,11 @@ fi
     done
 ) &
 
-exec docker-entrypoint.sh "$@"
+# Run the official entrypoint; if it fails, print EspoCRM's log so the cause
+# shows up in the hosting platform's logs.
+docker-entrypoint.sh "$@" || {
+    status=$?
+    echo >&2 "---- EspoCRM log (last 60 lines) ----"
+    tail -n 60 data/logs/*.log >&2 2>/dev/null || echo >&2 "(no log file)"
+    exit $status
+}
