@@ -34,7 +34,10 @@ fi
 # Background: once EspoCRM is ready, load the customizations into the schema,
 # apply demo settings, then keep the job runner going.
 (
-    until bin/command app-check >/dev/null 2>&1; do sleep 5; done
+    # Wait until the install (or upgrade) has fully finished, so two rebuilds never overlap.
+    until [ "$(bin/command config:get isInstalled 2>/dev/null || true)" = "true" ] \
+        && bin/command app-check >/dev/null 2>&1 \
+        && pgrep -x apache2 >/dev/null; do sleep 5; done
     chown -R www-data:www-data data custom client/custom
     as_web() { runuser -u www-data -- "$@"; }
     as_web bin/command config:set currencyList '["EGP"]' --type=json
