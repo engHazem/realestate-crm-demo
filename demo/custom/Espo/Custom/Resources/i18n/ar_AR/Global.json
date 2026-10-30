@@ -1,0 +1,16 @@
+{
+    "scopeNames": {
+        "Site": "موقع",
+        "Development": "مشروع",
+        "Unit": "وحدة",
+        "Reservation": "حجز",
+        "Contract": "عقد"
+    },
+    "scopeNamesPlural": {
+        "Site": "المواقع",
+        "Development": "المشروعات",
+        "Unit": "الوحدات",
+        "Reservation": "الحجوزات",
+        "Contract": "العقود"
+    }
+}

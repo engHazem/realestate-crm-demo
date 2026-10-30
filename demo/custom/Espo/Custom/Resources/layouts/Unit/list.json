@@ -1,0 +1,33 @@
+[
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "development"
+    },
+    {
+        "name": "type",
+        "width": 10
+    },
+    {
+        "name": "status",
+        "width": 11
+    },
+    {
+        "name": "floor",
+        "width": 7
+    },
+    {
+        "name": "area",
+        "width": 9
+    },
+    {
+        "name": "rooms",
+        "width": 7
+    },
+    {
+        "name": "price",
+        "width": 14
+    }
+]

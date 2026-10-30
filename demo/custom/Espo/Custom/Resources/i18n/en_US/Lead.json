@@ -1,0 +1,58 @@
+{
+    "fields": {
+        "tags": "Tags",
+        "followUpGroup": "Follow-up Group",
+        "nextFollowUp": "Next Follow-up",
+        "budget": "Budget",
+        "customer": "Customer",
+        "interestedUnit": "Interested Unit",
+        "status": "Stage"
+    },
+    "links": {
+        "customer": "Customer",
+        "interestedUnit": "Interested Unit",
+        "reservations": "Reservations",
+        "contracts": "Contracts"
+    },
+    "options": {
+        "status": {
+            "New": "New Client",
+            "Converted": "Converted Client",
+            "Serious": "Serious Client",
+            "Visit": "Visit",
+            "Reservation": "Reservation",
+            "Done": "Done (Contract)",
+            "Follow-up": "Follow-up",
+            "Waiting": "Waiting",
+            "Previous Visit": "Previous Visit",
+            "Sea Projects": "Sea Projects",
+            "Non-Serious": "Non-Serious Client",
+            "Not Interested": "Not Interested",
+            "Out of Segment": "Out of Segment",
+            "No Answer": "No Answer",
+            "Never Answers": "Never Answers",
+            "Refund": "Refund"
+        },
+        "source": {
+            "": "",
+            "Facebook": "Facebook",
+            "Website": "Website",
+            "Referral": "Referral",
+            "Other": "Other"
+        },
+        "tags": {
+            "Hot Lead": "Hot Lead",
+            "VIP": "VIP",
+            "Interested": "Interested",
+            "Follow Up": "Follow Up",
+            "Cold Lead": "Cold Lead"
+        },
+        "followUpGroup": {
+            "Under Follow-up": "Under Follow-up",
+            "Out of Follow-up": "Out of Follow-up"
+        }
+    },
+    "labels": {
+        "Interest": "Interest"
+    }
+}

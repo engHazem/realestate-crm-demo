@@ -1,0 +1,41 @@
+[
+    {
+        "label": "",
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "type"
+                }
+            ],
+            [
+                {
+                    "name": "site"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "description",
+                    "fullWidth": true
+                }
+            ],
+            [
+                {
+                    "name": "mainImage"
+                },
+                {
+                    "name": "layoutImage"
+                }
+            ],
+            [
+                {
+                    "name": "gallery",
+                    "fullWidth": true
+                }
+            ]
+        ]
+    }
+]

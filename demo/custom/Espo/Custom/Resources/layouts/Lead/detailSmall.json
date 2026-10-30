@@ -1,0 +1,37 @@
+[
+    {
+        "label": "",
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "status"
+                }
+            ],
+            [
+                {
+                    "name": "phoneNumber"
+                },
+                {
+                    "name": "emailAddress"
+                }
+            ],
+            [
+                {
+                    "name": "source"
+                },
+                {
+                    "name": "tags"
+                }
+            ],
+            [
+                {
+                    "name": "nextFollowUp"
+                },
+                false
+            ]
+        ]
+    }
+]

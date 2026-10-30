@@ -1,0 +1,13 @@
+[
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "site"
+    },
+    {
+        "name": "type",
+        "width": 14
+    }
+]

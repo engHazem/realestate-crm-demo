@@ -1,0 +1,45 @@
+[
+    {
+        "label": "",
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "status"
+                }
+            ],
+            [
+                {
+                    "name": "unit"
+                },
+                {
+                    "name": "contact"
+                }
+            ],
+            [
+                {
+                    "name": "reservedOn"
+                },
+                {
+                    "name": "expiresOn"
+                }
+            ],
+            [
+                {
+                    "name": "deposit"
+                },
+                {
+                    "name": "lead"
+                }
+            ],
+            [
+                {
+                    "name": "description",
+                    "fullWidth": true
+                }
+            ]
+        ]
+    }
+]

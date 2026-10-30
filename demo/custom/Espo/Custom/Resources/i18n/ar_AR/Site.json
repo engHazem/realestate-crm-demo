@@ -1,0 +1,13 @@
+{
+    "fields": {
+        "name": "الاسم",
+        "address": "العنوان",
+        "image": "الصورة"
+    },
+    "links": {
+        "developments": "المشروعات"
+    },
+    "labels": {
+        "Create Site": "إنشاء موقع"
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "fields": {
+        "tags": "الوسوم",
+        "followUpGroup": "مجموعة المتابعة",
+        "nextFollowUp": "المتابعة القادمة",
+        "budget": "الميزانية",
+        "customer": "العميل",
+        "interestedUnit": "الوحدة المهتم بها",
+        "status": "المرحلة"
+    },
+    "links": {
+        "customer": "العميل",
+        "interestedUnit": "الوحدة المهتم بها",
+        "reservations": "الحجوزات",
+        "contracts": "العقود"
+    },
+    "options": {
+        "status": {
+            "New": "العميل الجديد",
+            "Converted": "العميل المحوَّل",
+            "Serious": "العميل الجاد",
+            "Visit": "زيارة",
+            "Reservation": "حجز",
+            "Done": "تم (عقد)",
+            "Follow-up": "متابعة",
+            "Waiting": "انتظار",
+            "Previous Visit": "زيارة سابقة",
+            "Sea Projects": "مشروعات بحر",
+            "Non-Serious": "العميل غير الجاد",
+            "Not Interested": "غير مهتم",
+            "Out of Segment": "خارج الشريحة",
+            "No Answer": "لا يرد",
+            "Never Answers": "لا يرد مطلقاً",
+            "Refund": "استرداد"
+        },
+        "source": {
+            "": "",
+            "Facebook": "فيسبوك",
+            "Website": "الموقع الإلكتروني",
+            "Referral": "ترشيح",
+            "Other": "أخرى"
+        },
+        "tags": {
+            "Hot Lead": "عميل ساخن",
+            "VIP": "VIP",
+            "Interested": "مهتم",
+            "Follow Up": "متابعة",
+            "Cold Lead": "عميل بارد"
+        },
+        "followUpGroup": {
+            "Under Follow-up": "تحت المتابعة",
+            "Out of Follow-up": "خارج المتابعة"
+        }
+    },
+    "labels": {
+        "Interest": "الاهتمام"
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "fields": {
+        "name": "Unit Code",
+        "development": "Project",
+        "type": "Type",
+        "status": "Status",
+        "floor": "Floor",
+        "column": "Column",
+        "area": "Area (m²)",
+        "rooms": "Rooms",
+        "bathrooms": "Bathrooms",
+        "price": "Price",
+        "features": "Features",
+        "images": "Images",
+        "buyer": "Buyer",
+        "soldDate": "Sold Date"
+    },
+    "links": {
+        "development": "Project",
+        "buyer": "Buyer",
+        "reservations": "Reservations",
+        "contracts": "Contracts",
+        "interestedLeads": "Interested Leads"
+    },
+    "options": {
+        "status": {
+            "Available": "Available",
+            "Reserved": "Reserved",
+            "Contracted": "Contracted",
+            "Sold": "Sold",
+            "Not for sale": "Not for sale",
+            "Owner": "Owner"
+        },
+        "type": {
+            "Apartment": "Apartment",
+            "Villa": "Villa",
+            "Duplex": "Duplex",
+            "Chalet": "Chalet",
+            "Office": "Office",
+            "Shop": "Shop"
+        },
+        "features": {
+            "Swimming Pool": "Swimming Pool",
+            "Parking": "Parking",
+            "Elevator": "Elevator",
+            "Garden": "Garden",
+            "Balcony": "Balcony",
+            "Security": "Security",
+            "Air Conditioning": "Air Conditioning",
+            "Furnished": "Furnished",
+            "Sea View": "Sea View",
+            "Near Beach": "Near Beach"
+        }
+    },
+    "labels": {
+        "Create Unit": "Create Unit",
+        "Overview": "Overview",
+        "Sale": "Sale",
+        "Media": "Media"
+    }
+}

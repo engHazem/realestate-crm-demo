@@ -1,0 +1,41 @@
+# Render Blueprint: free web service + free PostgreSQL 15.
+databases:
+  - name: espocrm-db
+    plan: free
+    region: frankfurt
+    postgresMajorVersion: "15"
+    databaseName: espocrm
+    user: espocrm
+
+services:
+  - type: web
+    name: realestate-crm-demo
+    runtime: docker
+    plan: free
+    region: frankfurt
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: PORT
+        value: "80"
+      - key: ESPOCRM_DATABASE_PLATFORM
+        value: Postgresql
+      - key: ESPOCRM_DATABASE_HOST
+        fromDatabase: { name: espocrm-db, property: host }
+      - key: ESPOCRM_DATABASE_PORT
+        fromDatabase: { name: espocrm-db, property: port }
+      - key: ESPOCRM_DATABASE_NAME
+        fromDatabase: { name: espocrm-db, property: database }
+      - key: ESPOCRM_DATABASE_USER
+        fromDatabase: { name: espocrm-db, property: user }
+      - key: ESPOCRM_DATABASE_PASSWORD
+        fromDatabase: { name: espocrm-db, property: password }
+      - key: ESPOCRM_ADMIN_USERNAME
+        value: admin
+      - key: ESPOCRM_ADMIN_PASSWORD
+        generateValue: true
+      - key: ESPOCRM_TIME_ZONE
+        value: Africa/Cairo
+      - key: ESPOCRM_CONFIG_CRYPT_KEY
+        generateValue: true
+      - key: ESPOCRM_CONFIG_HASH_SECRET_KEY
+        generateValue: true

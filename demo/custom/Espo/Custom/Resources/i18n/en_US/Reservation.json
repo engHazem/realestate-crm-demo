@@ -1,0 +1,27 @@
+{
+    "fields": {
+        "unit": "Unit",
+        "contact": "Customer",
+        "lead": "Lead",
+        "reservedOn": "Reserved On",
+        "expiresOn": "Expires On",
+        "deposit": "Deposit",
+        "status": "Status"
+    },
+    "links": {
+        "unit": "Unit",
+        "contact": "Customer",
+        "lead": "Lead"
+    },
+    "options": {
+        "status": {
+            "Active": "Active",
+            "Converted": "Converted",
+            "Expired": "Expired",
+            "Cancelled": "Cancelled"
+        }
+    },
+    "labels": {
+        "Create Reservation": "Create Reservation"
+    }
+}

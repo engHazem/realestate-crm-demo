@@ -1,0 +1,24 @@
+{
+    "links": {
+        "customerLeads": {
+            "type": "hasMany",
+            "entity": "Lead",
+            "foreign": "customer"
+        },
+        "units": {
+            "type": "hasMany",
+            "entity": "Unit",
+            "foreign": "buyer"
+        },
+        "reservations": {
+            "type": "hasMany",
+            "entity": "Reservation",
+            "foreign": "contact"
+        },
+        "contracts": {
+            "type": "hasMany",
+            "entity": "Contract",
+            "foreign": "contact"
+        }
+    }
+}

@@ -1,0 +1,64 @@
+[
+    {
+        "label": "Overview",
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "status"
+                }
+            ],
+            [
+                {
+                    "name": "phoneNumber"
+                },
+                {
+                    "name": "emailAddress"
+                }
+            ],
+            [
+                {
+                    "name": "source"
+                },
+                {
+                    "name": "tags"
+                }
+            ],
+            [
+                {
+                    "name": "nextFollowUp"
+                },
+                {
+                    "name": "followUpGroup"
+                }
+            ]
+        ]
+    },
+    {
+        "label": "Interest",
+        "rows": [
+            [
+                {
+                    "name": "interestedUnit"
+                },
+                {
+                    "name": "budget"
+                }
+            ],
+            [
+                {
+                    "name": "customer"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "description",
+                    "fullWidth": true
+                }
+            ]
+        ]
+    }
+]

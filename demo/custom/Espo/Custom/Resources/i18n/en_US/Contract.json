@@ -1,0 +1,35 @@
+{
+    "fields": {
+        "number": "Contract No.",
+        "unit": "Unit",
+        "contact": "Customer",
+        "lead": "Lead",
+        "status": "Status",
+        "contractDate": "Contract Date",
+        "startDate": "Start Date",
+        "endDate": "End Date",
+        "totalAmount": "Total Amount",
+        "downPayment": "Down Payment",
+        "remainingAmount": "Remaining Amount",
+        "files": "Files"
+    },
+    "links": {
+        "unit": "Unit",
+        "contact": "Customer",
+        "lead": "Lead"
+    },
+    "options": {
+        "status": {
+            "Draft": "Draft",
+            "Active": "Active",
+            "Completed": "Completed",
+            "Cancelled": "Cancelled"
+        }
+    },
+    "labels": {
+        "Create Contract": "Create Contract",
+        "Amounts": "Amounts",
+        "Documents": "Documents",
+        "Overview": "Overview"
+    }
+}

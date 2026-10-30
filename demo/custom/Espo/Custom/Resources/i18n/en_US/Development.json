@@ -1,0 +1,23 @@
+{
+    "fields": {
+        "name": "Project Title",
+        "site": "Site",
+        "type": "Project Type",
+        "mainImage": "Main Image",
+        "layoutImage": "Layout Image",
+        "gallery": "Gallery"
+    },
+    "links": {
+        "site": "Site",
+        "units": "Units"
+    },
+    "options": {
+        "type": {
+            "Current": "Current Project",
+            "Previous": "Previous Project"
+        }
+    },
+    "labels": {
+        "Create Development": "Create Project"
+    }
+}

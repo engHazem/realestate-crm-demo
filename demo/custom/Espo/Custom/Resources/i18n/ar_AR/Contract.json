@@ -1,0 +1,35 @@
+{
+    "fields": {
+        "number": "رقم العقد",
+        "unit": "وحدة",
+        "contact": "العميل",
+        "lead": "العميل المحتمل",
+        "status": "الحالة",
+        "contractDate": "تاريخ العقد",
+        "startDate": "تاريخ البدء",
+        "endDate": "تاريخ الانتهاء",
+        "totalAmount": "إجمالي المبلغ",
+        "downPayment": "المقدم",
+        "remainingAmount": "المبلغ المتبقي",
+        "files": "الملفات"
+    },
+    "links": {
+        "unit": "وحدة",
+        "contact": "العميل",
+        "lead": "العميل المحتمل"
+    },
+    "options": {
+        "status": {
+            "Draft": "مسودة",
+            "Active": "نشط",
+            "Completed": "مكتمل",
+            "Cancelled": "ملغي"
+        }
+    },
+    "labels": {
+        "Create Contract": "إنشاء عقد",
+        "Amounts": "المبالغ",
+        "Documents": "المستندات",
+        "Overview": "نظرة عامة"
+    }
+}

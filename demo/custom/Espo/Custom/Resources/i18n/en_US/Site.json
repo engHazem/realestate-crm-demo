@@ -1,0 +1,13 @@
+{
+    "fields": {
+        "name": "Name",
+        "address": "Address",
+        "image": "Image"
+    },
+    "links": {
+        "developments": "Projects"
+    },
+    "labels": {
+        "Create Site": "Create Site"
+    }
+}

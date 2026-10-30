@@ -1,0 +1,8 @@
+{
+    "links": {
+        "customerLeads": "Leads",
+        "units": "Purchased Units",
+        "reservations": "Reservations",
+        "contracts": "Contracts"
+    }
+}

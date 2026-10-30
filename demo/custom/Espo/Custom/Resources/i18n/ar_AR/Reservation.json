@@ -1,0 +1,27 @@
+{
+    "fields": {
+        "unit": "وحدة",
+        "contact": "العميل",
+        "lead": "العميل المحتمل",
+        "reservedOn": "تاريخ الحجز",
+        "expiresOn": "تاريخ الانتهاء",
+        "deposit": "العربون",
+        "status": "الحالة"
+    },
+    "links": {
+        "unit": "وحدة",
+        "contact": "العميل",
+        "lead": "العميل المحتمل"
+    },
+    "options": {
+        "status": {
+            "Active": "نشط",
+            "Converted": "تحوَّل لعقد",
+            "Expired": "منتهي",
+            "Cancelled": "ملغي"
+        }
+    },
+    "labels": {
+        "Create Reservation": "إنشاء حجز"
+    }
+}

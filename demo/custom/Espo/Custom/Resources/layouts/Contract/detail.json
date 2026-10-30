@@ -1,0 +1,81 @@
+[
+    {
+        "label": "Overview",
+        "rows": [
+            [
+                {
+                    "name": "number"
+                },
+                {
+                    "name": "status"
+                }
+            ],
+            [
+                {
+                    "name": "unit"
+                },
+                {
+                    "name": "contact"
+                }
+            ],
+            [
+                {
+                    "name": "lead"
+                },
+                {
+                    "name": "name"
+                }
+            ],
+            [
+                {
+                    "name": "contractDate"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "startDate"
+                },
+                {
+                    "name": "endDate"
+                }
+            ]
+        ]
+    },
+    {
+        "label": "Amounts",
+        "rows": [
+            [
+                {
+                    "name": "totalAmount"
+                },
+                {
+                    "name": "downPayment"
+                }
+            ],
+            [
+                {
+                    "name": "remainingAmount"
+                },
+                false
+            ]
+        ]
+    },
+    {
+        "label": "Documents",
+        "rows": [
+            [
+                {
+                    "name": "files",
+                    "fullWidth": true
+                }
+            ],
+            [
+                {
+                    "name": "description",
+                    "fullWidth": true
+                }
+            ]
+        ]
+    }
+]

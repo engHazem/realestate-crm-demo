@@ -1,0 +1,3 @@
+{
+    "beforeSaveCustomScript": "ifThen(!name, name = string\\concatenate('Reservation - ', unit.name, ' - ', contact.name));\nifThen(unitId && status == 'Active', record\\update('Unit', unitId, 'status', 'Reserved'));\nifThen(unitId && (status == 'Cancelled' || status == 'Expired') && record\\attribute('Unit', unitId, 'status') == 'Reserved', record\\update('Unit', unitId, 'status', 'Available'));"
+}

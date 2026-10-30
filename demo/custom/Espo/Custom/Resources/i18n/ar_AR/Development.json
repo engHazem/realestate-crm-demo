@@ -1,0 +1,23 @@
+{
+    "fields": {
+        "name": "اسم المشروع",
+        "site": "موقع",
+        "type": "نوع المشروع",
+        "mainImage": "الصورة الرئيسية",
+        "layoutImage": "صورة المخطط",
+        "gallery": "معرض الصور"
+    },
+    "links": {
+        "site": "موقع",
+        "units": "الوحدات"
+    },
+    "options": {
+        "type": {
+            "Current": "مشروع حالي",
+            "Previous": "مشروع سابق"
+        }
+    },
+    "labels": {
+        "Create Development": "إنشاء مشروع"
+    }
+}

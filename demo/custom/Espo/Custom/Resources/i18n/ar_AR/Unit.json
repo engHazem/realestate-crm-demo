@@ -1,0 +1,61 @@
+{
+    "fields": {
+        "name": "كود الوحدة",
+        "development": "مشروع",
+        "type": "النوع",
+        "status": "الحالة",
+        "floor": "الدور",
+        "column": "العمود",
+        "area": "المساحة (م²)",
+        "rooms": "الغرف",
+        "bathrooms": "الحمامات",
+        "price": "السعر",
+        "features": "المميزات",
+        "images": "الصور",
+        "buyer": "المشتري",
+        "soldDate": "تاريخ البيع"
+    },
+    "links": {
+        "development": "مشروع",
+        "buyer": "المشتري",
+        "reservations": "الحجوزات",
+        "contracts": "العقود",
+        "interestedLeads": "العملاء المهتمون"
+    },
+    "options": {
+        "status": {
+            "Available": "متاح",
+            "Reserved": "محجوز",
+            "Contracted": "متعاقد عليه",
+            "Sold": "مباع",
+            "Not for sale": "غير معروض للبيع",
+            "Owner": "مالك"
+        },
+        "type": {
+            "Apartment": "شقة",
+            "Villa": "فيلا",
+            "Duplex": "دوبلكس",
+            "Chalet": "شاليه",
+            "Office": "مكتب",
+            "Shop": "محل"
+        },
+        "features": {
+            "Swimming Pool": "حمام سباحة",
+            "Parking": "جراج",
+            "Elevator": "مصعد",
+            "Garden": "حديقة",
+            "Balcony": "شرفة",
+            "Security": "أمن",
+            "Air Conditioning": "تكييف",
+            "Furnished": "مفروش",
+            "Sea View": "إطلالة بحرية",
+            "Near Beach": "قريب من الشاطئ"
+        }
+    },
+    "labels": {
+        "Create Unit": "إنشاء وحدة",
+        "Overview": "نظرة عامة",
+        "Sale": "البيع",
+        "Media": "الوسائط"
+    }
+}

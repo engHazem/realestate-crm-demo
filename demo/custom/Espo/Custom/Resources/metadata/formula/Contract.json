@@ -1,0 +1,3 @@
+{
+    "beforeSaveCustomScript": "ifThen(!name, name = string\\concatenate('Contract - ', unit.name, ' - ', contact.name));\nremainingAmount = totalAmount - ifThenElse(downPayment, downPayment, 0);\nremainingAmountCurrency = totalAmountCurrency;\nifThen(unitId && status == 'Active', record\\update('Unit', unitId, 'status', 'Contracted'));\nifThen(unitId && status == 'Completed', record\\update('Unit', unitId, 'status', 'Sold', 'buyerId', contactId, 'soldDate', ifThenElse(contractDate, contractDate, datetime\\today())));"
+}

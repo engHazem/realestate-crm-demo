@@ -1,0 +1,9 @@
+{
+    "controller": "controllers/record",
+    "boolFilterList": [
+        "onlyMy"
+    ],
+    "iconClass": "fas fa-file-signature",
+    "color": "#20c997",
+    "kanbanViewMode": true
+}

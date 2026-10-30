@@ -1,0 +1,32 @@
+[
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "status",
+        "width": 14
+    },
+    {
+        "name": "phoneNumber",
+        "notSortable": true,
+        "width": 14
+    },
+    {
+        "name": "source",
+        "width": 10
+    },
+    {
+        "name": "tags",
+        "notSortable": true,
+        "width": 16
+    },
+    {
+        "name": "nextFollowUp",
+        "width": 11
+    },
+    {
+        "name": "assignedUser",
+        "width": 14
+    }
+]

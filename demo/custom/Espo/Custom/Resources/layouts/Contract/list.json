@@ -1,0 +1,26 @@
+[
+    {
+        "name": "number",
+        "width": 7
+    },
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "status",
+        "width": 11
+    },
+    {
+        "name": "totalAmount",
+        "width": 13
+    },
+    {
+        "name": "remainingAmount",
+        "width": 13
+    },
+    {
+        "name": "contractDate",
+        "width": 11
+    }
+]

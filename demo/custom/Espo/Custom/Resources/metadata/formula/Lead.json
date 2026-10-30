@@ -1,0 +1,3 @@
+{
+    "beforeSaveCustomScript": "followUpGroup = ifThenElse(array\\includes(list('Non-Serious', 'Not Interested', 'Out of Segment', 'No Answer', 'Never Answers', 'Refund'), status), 'Out of Follow-up', 'Under Follow-up');"
+}

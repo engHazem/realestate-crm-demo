@@ -1,0 +1,28 @@
+[
+    {
+        "name": "name",
+        "link": true
+    },
+    {
+        "name": "unit"
+    },
+    {
+        "name": "contact"
+    },
+    {
+        "name": "status",
+        "width": 11
+    },
+    {
+        "name": "reservedOn",
+        "width": 11
+    },
+    {
+        "name": "expiresOn",
+        "width": 11
+    },
+    {
+        "name": "deposit",
+        "width": 12
+    }
+]

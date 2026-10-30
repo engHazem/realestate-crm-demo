@@ -1,0 +1,16 @@
+{
+    "scopeNames": {
+        "Site": "Site",
+        "Development": "Project",
+        "Unit": "Unit",
+        "Reservation": "Reservation",
+        "Contract": "Contract"
+    },
+    "scopeNamesPlural": {
+        "Site": "Sites",
+        "Development": "Projects",
+        "Unit": "Units",
+        "Reservation": "Reservations",
+        "Contract": "Contracts"
+    }
+}

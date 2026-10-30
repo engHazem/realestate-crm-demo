@@ -1,0 +1,127 @@
+{
+    "fields": {
+        "status": {
+            "options": [
+                "New",
+                "Converted",
+                "Serious",
+                "Visit",
+                "Reservation",
+                "Done",
+                "Follow-up",
+                "Waiting",
+                "Previous Visit",
+                "Sea Projects",
+                "Non-Serious",
+                "Not Interested",
+                "Out of Segment",
+                "No Answer",
+                "Never Answers",
+                "Refund"
+            ],
+            "default": "New",
+            "style": {
+                "Converted": "primary",
+                "Serious": "success",
+                "Visit": "primary",
+                "Reservation": "warning",
+                "Done": "success",
+                "Follow-up": "info",
+                "Waiting": "warning",
+                "Previous Visit": "info",
+                "Sea Projects": "info",
+                "Non-Serious": "default",
+                "Not Interested": "danger",
+                "Out of Segment": "default",
+                "No Answer": "warning",
+                "Never Answers": "danger",
+                "Refund": "danger"
+            },
+            "notActualOptions": [
+                "Converted",
+                "Done",
+                "Non-Serious",
+                "Not Interested",
+                "Out of Segment",
+                "No Answer",
+                "Never Answers",
+                "Refund"
+            ]
+        },
+        "source": {
+            "options": [
+                "",
+                "Facebook",
+                "Website",
+                "Referral",
+                "Other"
+            ],
+            "required": true
+        },
+        "tags": {
+            "type": "multiEnum",
+            "options": [
+                "Hot Lead",
+                "VIP",
+                "Interested",
+                "Follow Up",
+                "Cold Lead"
+            ],
+            "displayAsLabel": true,
+            "style": {
+                "Hot Lead": "danger",
+                "VIP": "warning",
+                "Interested": "success",
+                "Follow Up": "primary",
+                "Cold Lead": "info"
+            }
+        },
+        "followUpGroup": {
+            "type": "enum",
+            "options": [
+                "Under Follow-up",
+                "Out of Follow-up"
+            ],
+            "readOnly": true,
+            "default": "Under Follow-up",
+            "style": {
+                "Under Follow-up": "success",
+                "Out of Follow-up": "default"
+            }
+        },
+        "nextFollowUp": {
+            "type": "date"
+        },
+        "budget": {
+            "type": "currency"
+        },
+        "customer": {
+            "type": "link"
+        },
+        "interestedUnit": {
+            "type": "link"
+        }
+    },
+    "links": {
+        "customer": {
+            "type": "belongsTo",
+            "entity": "Contact",
+            "foreign": "customerLeads"
+        },
+        "interestedUnit": {
+            "type": "belongsTo",
+            "entity": "Unit",
+            "foreign": "interestedLeads"
+        },
+        "reservations": {
+            "type": "hasMany",
+            "entity": "Reservation",
+            "foreign": "lead"
+        },
+        "contracts": {
+            "type": "hasMany",
+            "entity": "Contract",
+            "foreign": "lead"
+        }
+    }
+}

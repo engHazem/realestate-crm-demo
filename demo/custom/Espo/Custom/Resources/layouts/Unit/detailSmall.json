@@ -1,0 +1,37 @@
+[
+    {
+        "label": "",
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "status"
+                }
+            ],
+            [
+                {
+                    "name": "development"
+                },
+                {
+                    "name": "type"
+                }
+            ],
+            [
+                {
+                    "name": "area"
+                },
+                {
+                    "name": "rooms"
+                }
+            ],
+            [
+                {
+                    "name": "price"
+                },
+                false
+            ]
+        ]
+    }
+]

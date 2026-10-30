@@ -1,0 +1,83 @@
+[
+    {
+        "label": "Overview",
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "status"
+                }
+            ],
+            [
+                {
+                    "name": "development"
+                },
+                {
+                    "name": "type"
+                }
+            ],
+            [
+                {
+                    "name": "floor"
+                },
+                {
+                    "name": "column"
+                }
+            ],
+            [
+                {
+                    "name": "area"
+                },
+                {
+                    "name": "rooms"
+                }
+            ],
+            [
+                {
+                    "name": "price"
+                },
+                {
+                    "name": "bathrooms"
+                }
+            ],
+            [
+                {
+                    "name": "features",
+                    "fullWidth": true
+                }
+            ]
+        ]
+    },
+    {
+        "label": "Sale",
+        "rows": [
+            [
+                {
+                    "name": "buyer"
+                },
+                {
+                    "name": "soldDate"
+                }
+            ]
+        ]
+    },
+    {
+        "label": "Media",
+        "rows": [
+            [
+                {
+                    "name": "images",
+                    "fullWidth": true
+                }
+            ],
+            [
+                {
+                    "name": "description",
+                    "fullWidth": true
+                }
+            ]
+        ]
+    }
+]
